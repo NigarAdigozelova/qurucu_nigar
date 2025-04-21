@@ -23,7 +23,7 @@ const LoginComponent = () => {
           <input {...register("password", { required: true, maxLength: 20 })} type="text" placeholder='Şifrəniz' />
         </div>
         <button>Giriş et</button>
-        <span> <a href="">Şifrəni unutdum</a></span>
+        <span> <a href="#">Şifrəni unutdum</a></span>
       </form>
 
     </div>
